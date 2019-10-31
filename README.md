@@ -7,3 +7,4 @@ The feature folder structure isolates each feature meaning the features cannot b
 
 but only by providing a url to feature folder
  > python manage.py behave BDD/Features/user_test_folder/
+ 
