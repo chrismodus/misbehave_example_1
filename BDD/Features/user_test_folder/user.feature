@@ -4,7 +4,7 @@ Feature: User management
     Scenario: Create user
         Given the following user data
         | username | email                  | groups |
-        | user_1   | example1@example.com   |        |
+        | user_1   | example@example.com   |        |
         When a POST request is made to the user endpoint
         Then the user is created
 
@@ -12,7 +12,7 @@ Feature: User management
     Scenario: Create and retrieve user
         Given a user exists with the following user data
         | username | email                  | groups |
-        | user_1   | example1@example.com   |        |
+        | user_1   | example@example.com   |        |
         When a GET request is made to the user endpoint
         Then the user is retrieved
 
