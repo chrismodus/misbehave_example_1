@@ -1,7 +1,7 @@
-Feature: User management
+Feature: User management-broke
 
 
-    Scenario: Create user
+    Scenario: Create user-broke
         Given the following user data
         | username | email                  | groups |
         | user_1   | example@example.com   |        |
@@ -9,7 +9,7 @@ Feature: User management
         Then the user is created
 
 
-    Scenario: Create and retrieve user
+    Scenario: Create and retrieve user-broke
         Given a user exists with the following user data
         | username | email                  | groups |
         | user_1   | example@example.com   |        |
