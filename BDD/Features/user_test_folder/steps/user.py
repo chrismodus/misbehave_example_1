@@ -89,5 +89,5 @@ def step_impl(context):
 
 @then(u'the user is retrieved')
 def step_impl(context):
-    assert context.response.status_code == 201, "Failed to retrieve user, " \
-                                        f"status code: {context.response.status_code}"
+    assert context.response.status_code == 200, "Failed to retrieve user, " \
+                                        f"returned status code: {context.response.status_code}"
